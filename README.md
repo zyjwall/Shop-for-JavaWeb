@@ -1,6 +1,6 @@
 # Shop-for-JavaWeb
 
-#### 注意：该项目已经不再维护了，请使用 ETShop-for-PHP-Yii2    https://github.com/EleTeam/ETShop-for-PHP-Yii2
+#### 注意：如果用PHP开发，请使用 ETShop-for-PHP-Yii2    https://github.com/EleTeam/ETShop-for-PHP-Yii2
 
 #### 这是网站版的电商系统，是Shop-for-iOS的服务端代码。
 

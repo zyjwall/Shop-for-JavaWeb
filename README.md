@@ -9,7 +9,6 @@
 #### 这是网站版的电商系统，是Shop-for-iOS的服务端代码。
 
 ###### @author Tony Wong
-###### @email 908601756@qq.com
 ###### @copyright Copyright © 2015年 EleTeam. All rights reserved.
 ###### @license The MIT License (MIT)
 

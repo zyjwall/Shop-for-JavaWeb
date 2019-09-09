@@ -86,6 +86,14 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
 		if (isBlank(html)){
 			return "";
 		}
+// 		.+?表示最小匹配
+// 举例说明.+?与.+的区别
+// <a href="xxx"><span>
+// 如果用<.+>匹配，则匹配结果是
+// <a href="xxx"><span>
+// 如果用<.+?>匹配，则匹配结果是
+// <a href="xxx">
+// 也就是.+?只要匹配就返回了，不会再接着往下找了 
 		String regEx = "<.+?>";
 		Pattern p = Pattern.compile(regEx);
 		Matcher m = p.matcher(html);

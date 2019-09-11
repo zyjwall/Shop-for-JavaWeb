@@ -110,6 +110,14 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
 		if (html == null){
 			return "";
 		}
+// 		                         // 将str中的所有数字替换为“数字”二字
+
+//                             String str = "abc123bcd45ef6g7890";
+
+//                             str = str.replaceAll("\\d+", "数字");
+
+//                              System.out.println(str);//abc数字bcd数字ef数字g数字  
+		//截取第一段
 		return html.replaceAll("<([a-z]+?)\\s+?.*?>", "<$1>");
 	}
 	

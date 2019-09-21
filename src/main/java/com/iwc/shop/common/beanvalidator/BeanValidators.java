@@ -32,6 +32,8 @@ public class BeanValidators {
 	/**
 	 * 调用JSR303的validate方法, 验证失败时抛出ConstraintViolationException.
 	 */
+// 	这个表示objs是String类型的参数
+//      三小点号... 表示传递的参数个数不确定，可以是两个、三个或多个。 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void validateWithException(Validator validator, Object object, Class<?>... groups)
 			throws ConstraintViolationException {
